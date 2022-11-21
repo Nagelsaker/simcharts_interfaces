@@ -1,0 +1,10 @@
+int64 mmsi
+string timestamp
+float64 longitude
+float64 latitude
+float64 sog
+float64 cog
+float64 heading
+float64 rot
+string name
+int64 shiptype

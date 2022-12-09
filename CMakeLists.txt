@@ -16,10 +16,29 @@ find_package(rosidl_default_generators REQUIRED)
 set(msg_files
   "msg/AIS.msg"
   "msg/ListOfAIS.msg"
+  "msg/ListOfVessels.msg"
+  "msg/Path.msg"
+  "msg/Point.msg"
+  "msg/Polygon.msg"
+  "msg/Trajectory.msg"
+  "msg/Vessel.msg"
+)
+
+set(srv_files
+  "srv/AddVesselToLocalTraffic.srv"
+  "srv/CleanPlot.srv"
+  "srv/DrawPath.srv"
+  "srv/DrawTrajectory.srv"
+  "srv/GetStaticObstacles.srv"
+  "srv/GetDynamicObstacles.srv"
+  "srv/RemoveVesselFromLocalTraffic.srv"
+  "srv/ReplaceLocalTraffic.srv"
+  "srv/UpdateVesselInLocalTraffic.srv"
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${msg_files}
+  ${srv_files}
  )
 
 if(BUILD_TESTING)

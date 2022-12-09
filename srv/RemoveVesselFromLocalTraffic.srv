@@ -1,0 +1,4 @@
+int64 id
+---
+Vessel removed_vessel
+bool was_removed

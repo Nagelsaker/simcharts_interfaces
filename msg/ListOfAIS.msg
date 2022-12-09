@@ -1,2 +1,2 @@
-string timestamp
+float64 timestamp
 AIS[] ais_msgs

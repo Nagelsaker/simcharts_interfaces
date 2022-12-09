@@ -1,0 +1,3 @@
+---
+float64 timestamp
+Polygon[] static_obstacles

@@ -1,0 +1,4 @@
+Vessel[] new_traffic
+---
+float64 timestamp
+Vessel[] old_traffic

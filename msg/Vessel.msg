@@ -1,0 +1,13 @@
+int64 id
+string timestamp
+float64 x
+float64 y
+float64 sog
+float64 cog
+float64 heading
+float64 length
+float64 scale
+float64 rot
+string name
+string shiptype
+string vesselsimtype

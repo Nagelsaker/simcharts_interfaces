@@ -6,6 +6,7 @@ float64 sog
 float64 cog
 float64 heading
 float64 length
+float64 width
 float64 scale
 float64 rot
 string name
